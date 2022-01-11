@@ -1,0 +1,342 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+<style type="text/css">
+<!--
+	.style1 {	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10pt;}
+	.style2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold;}
+
+	A { color:#808080; font-family:Arial, Helvetica, sans-serif; font-size:10pt; text-decoration:none;}
+	A:link { color:#808080; font-family:Arial, Helvetica, sans-serif; font-size:10pt; text-decoration:none;}
+	A:hover {color:#FF0000; font-family:Arial, Helvetica, sans-serif; font-size:10pt; text-decoration:underline;} 
+
+-->
+</style>
+<script language="JavaScript1.2">
+
+//Slide-in scoller- © Dynamic Drive (www.dynamicdrive.com)
+//For full source code, 100's more DHTML scripts, and TOS,
+//visit http://www.dynamicdrive.com
+
+//Configure delay between messages (4000=4 secs):
+var delay=6000
+//Configure scroller width
+var scrollwidth="500px"
+//Configure scroller height
+var scrollheight="65px"
+var message=new Array()
+//Configure messages. Extend array as needed:
+var openingtag='<font face="verdana, arial" color="#000000" size="-1">'
+message[0]='<b><a href ="http://banner.ambercoastcasino.com/cgi-bin/redir.cgi?xtra11" target=new><img src="http://www.onlineplayersassociation.co.uk/newimages/ambertop1.gif" border="0"></a></b>'
+message[1]='<b><a href ="http://banner.ambercoastcasino.com/cgi-bin/redir.cgi?xtra11" target=new><img src="http://www.onlineplayersassociation.co.uk/newimages/ambertop2.gif" border="0"></a></b>'
+message[2]='<b><a href ="http://banner.ambercoastcasino.com/cgi-bin/redir.cgi?xtra11" target=new><img src="http://www.onlineplayersassociation.co.uk/newimages/ambertop3.gif" border="0"></a></b>'
+
+var closingtag='</font>'
+
+//This variable specifies the initial negative offset of each msg
+//You may wish to increase it if your scroller is to the right of page horizontally
+var hoffset=-10
+
+</script>
+<title>Online Players Association</title>
+</head>
+<body leftmargin=5 topmargin=0>
+	<table border=0 cellpadding="0" cellspacing="0" width="792" height="667"align="center">
+		<tr><td height="18" colspan=5>&nbsp;</td></tr>
+		<tr>
+			<td width="22" height="44">&nbsp;</td>
+			
+																		<td width="770" height="36" align="left" valign="center"><img src="http://www.onlineplayersassociation.co.uk/newimages/top1.gif" border="0"></a>
+<a href="http://www.onlineplayersassociation.co.uk"><img src="http://www.onlineplayersassociation.co.uk/club2xp/electrical.gif" border="0"></a>
+									<a href="http://www.onlineplayersassociation.co.uk/specials.html"><img src="http://www.onlineplayersassociation.co.uk/newimages/specials.gif" border="0"></a>
+<a href="http://www.onlineplayersassociation.co.uk/services.html"><img src="http://www.onlineplayersassociation.co.uk/newimages/services.gif" border="0"></a>
+
+							<a href="http://www.onlineplayersassociation.co.uk/sitemap.html">		<img src="http://www.onlineplayersassociation.co.uk/newimages/sitemap.gif" border="0"></a>
+
+<a href="http://www.onlineplayersassociation.co.uk/contact.html"><img src="http://www.onlineplayersassociation.co.uk/newimages/contact.gif" border="0"></a>
+									
+						<img src="http://www.onlineplayersassociation.co.uk/newimages/opapokerlogotp1.gif" border="0"></a>
+
+</td>
+			<td>&nbsp;</td>			
+		</tr>
+		<tr>
+			<td colspan=5 height="15" align="center" valign="baseline">
+
+				<img src="http://www.onlineplayersassociation.co.uk/club2xp/grayline.gif">
+			</td>
+		</tr>
+		<tr>
+			<td height="170" colspan=5 valign="middle" align="center">			<ilayer width=&{scrollwidth}; height=&{scrollheight}; name="sslide">
+<layer name="sslide2" width=&{scrollwidth}; height=&{scrollheight};></layer>
+</ilayer>
+
+<script language="JavaScript1.2">
+
+var inc=1
+var ns4=document.layers
+var ie5ns6=document.getElementById||document.all
+
+if (ie5ns6)
+document.write(openingtag+'<div id="flyin" style="position:relative;width:'+scrollwidth+';height:'+scrollheight+';">'+message[0]+'</div>'+closingtag)
+
+
+function updatemsg(){
+crossobj.style.left="-2000px"
+crossobj.style.fontStyle="italic"
+crossobj.innerHTML=message[inc]
+crossobj.style.left=crossobj.offsetWidth*(-1)+hoffset+"px"
+start=setInterval("animatein()",50)
+inc=(inc<message.length-1)? inc+1 : 0
+}
+
+function animatein(){
+if (parseInt(crossobj.style.left)<0)
+crossobj.style.left=parseInt(crossobj.style.left)+20+"px"
+else{
+crossobj.style.left=0+"px"
+crossobj.style.fontStyle="normal"
+clearInterval(start)
+}
+}
+
+function updatemsgns4(){
+document.sslide.document.sslide2.document.write(openingtag+message[inc]+closingtag)
+document.sslide.document.sslide2.document.close()
+inc=(inc<message.length-1)? inc+1 : 0
+}
+
+function initialize(){
+if (ie5ns6){
+crossobj=document.getElementById? document.getElementById("flyin") : document.all.flyin
+setInterval("updatemsg()",delay+1000)
+}
+else if (ns4){
+document.sslide.document.sslide2.document.write(openingtag+message[0]+closingtag)
+document.sslide.document.sslide2.document.close()
+setInterval("updatemsgns4()",delay)
+}
+}
+
+window.onload=initialize
+
+</script>
+
+
+<br>
+		
+<img src="http://www.onlineplayersassociation.co.uk/club2xp/grayline.gif" border="0"><br>
+
+ <font face="verdana, arial" color="#336699" size="2"><strong>
+Welcome to The Online Players Association - </font> <font face="verdana, arial" color="#b10f02" size="2">Payout Certificates</strong> </font> 
+
+<br> 
+ <font face="verdana, arial" color="#336699" size="2"><strong>
+
+<a href ="http://www.onlineplayersassociation.co.uk/payoutcertificates.html"> <font face="verdana, arial" color="#b10f02" size="2">Payout Certificates </font> </a>&nbsp;&nbsp;
+<a href ="http://www.onlineplayersassociation.co.uk/casino.html"> <font face="verdana, arial" color="#336699" size="2">Casino Section </font> </a> &nbsp;&nbsp;
+<a href ="http://www.onlineplayersassociation.co.uk/poker.html"> <font face="verdana, arial" color="#336699" size="2">Poker Section </font> </a>&nbsp;&nbsp;
+<a href ="http://www.onlineplayersassociation.co.uk/bingo.html"> <font face="verdana, arial" color="#336699" size="2">Bingo Section </font> </a>&nbsp;&nbsp;
+<a href ="http://www.onlineplayersassociation.co.uk/bettingterminals.html"> <font face="verdana, arial" color="#336699" size="2">Betting Terminals </font>  </a> &nbsp;&nbsp;
+<a href ="http://www.onlineplayersassociation.co.uk/playerspanel.html"> <font face="verdana, arial" color="#336699" size="2">Players Panel </font> </a>&nbsp;&nbsp;
+
+</font> 
+ <br>
+
+
+
+<img src="http://www.onlineplayersassociation.co.uk/club2xp/grayline.gif"><br><br>
+
+
+								  	
+</td>
+		</tr>
+		<tr>
+			<td colspan=5 valign="top">
+				<table width="100%" height="100%" border="0">
+					<tr>
+						<td valign="top" align="right" width="530">
+							<table width="530" height="235">
+								<tr><td colspan="2"  height="310" valign="top"><table width="530" height="236" border="0" cellpadding="0" cellspacing="0">
+								  <tr>
+									<td width="10"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_left.gif" width="22" height="22"></td>
+									<td bgcolor="#0000FF"><div align="center"><img src="http://www.onlineplayersassociation.co.uk/club2xp/comingsoon1.gif" width="171" height="22"></div></td>
+									<td width="10"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_right.gif" width="22" height="22"></td>
+								  </tr>
+								  <tr>
+									<td width="10" background="http://www.onlineplayersassociation.co.uk/club2xp/line_left.gif" valign="top"></td>
+									<td bgcolor="#E5E5E5"><div align="left"><br>
+
+
+											<span class="style1"> 
+<BR>
+<center>
+
+<IMG src="http://www.onlineplayersassociation.co.uk/Payout Certificates/ambercoast.jpg" border="0">
+
+
+</center>	  <br>   <br> 
+</font>
+
+					</span> </div>
+									  	</td>
+									<td width="10" background="http://www.onlineplayersassociation.co.uk/club2xp/line_right.gif" valign="top"></td>
+								  </tr>
+								  <tr>
+									<td width="10" bgcolor="#E5E5E5"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_left_bottom.gif"></td>
+									<td background="http://www.onlineplayersassociation.co.uk/club2xp/line_bottom.gif"></td>
+									<td width="10" bgcolor="#E5E5E5"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_right_bottom.gif"></td>
+								  </tr>
+								</table>
+								  </td>
+								</tr>
+
+
+
+
+								
+								
+
+
+</table>
+						
+						 </td>
+						<td align="center" valign="top">
+							<table style="font-family:Arial, Helvetica, sans-serif; font-size:12px" width="230">
+
+
+								
+
+
+								<tr><td colspan="2"  height="250" valign="top"><table width="100%" height="150" border="0" cellpadding="0" cellspacing="0">
+								  <tr>
+									<td width="10"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_left.gif" width="22" height="22"></td>
+									<td bgcolor="#0000FF"><div align="center"><img src="http://www.onlineplayersassociation.co.uk/club2xp/comingsoon1.gif" width="171" height="22"></div></td>
+									<td width="10"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_right.gif" width="22" height="22"></td>
+								  </tr>
+								  <tr>
+									<td width="10" background="http://www.onlineplayersassociation.co.uk/club2xp/line_left.gif" valign="top"></td>
+									<td bgcolor="#E5E5E5"><div align="left"><br>
+
+
+											<span class="style1"> 
+<font face="verdana, arial" color="#336699" size="-2"><B><font color="b10f02">Payout Certificates<br><br> </font></B></center><font face="verdana, arial" color="#336699" size="-2">
+							
+<B> 
+<a href="http://www.onlineplayersassociation.co.uk/ambercoast.html">  <font face="verdana, arial" color="#336699" size="-2">Amber Coast Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/maximacasino.html">  <font face="verdana, arial" color="#336699" size="-2">Maxima Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/cherrycasino.html">  <font face="verdana, arial" color="#336699" size="-2">Cherry Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/casinoeuro.html">  <font face="verdana, arial" color="#336699" size="-2">Casino Euro</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/mapaucasino.html">  <font face="verdana, arial" color="#336699" size="-2">Mapau Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/brandycasino.html">  <font face="verdana, arial" color="#336699" size="-2">Brandy Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/zipangcasino.html">  <font face="verdana, arial" color="#336699" size="-2">Zipang Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/casinofortune.html">  <font face="verdana, arial" color="#336699" size="-2">Casino Fortune</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/carnivalcasino.html"> <font face="verdana, arial" color="#336699" size="-2">Carnival Casino</a> <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/unibet.html"> <font face="verdana, arial" color="#336699" size="-2">Unibet Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/betssoncasino.html"> <font face="verdana, arial" color="#336699" size="-2">Betsson Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/clubdicecasino.html"> <font face="verdana, arial" color="#336699" size="-2">Club Dice Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/goldgatecasino.html"> <font face="verdana, arial" color="#336699" size="-2">Gold Gate Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/usacasino.html"> <font face="verdana, arial" color="#336699" size="-2">USA Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/casinodelrio.html"> <font face="verdana, arial" color="#336699" size="-2">Casino Del Rio</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/blackwidowcasino.html"> <font face="verdana, arial" color="#336699" size="-2">Black Widow Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/grandbankscasino.html"> <font face="verdana, arial" color="#336699" size="-2">Grand Banks Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/casinotropez.html"><font face="verdana, arial" color="#336699" size="-2">Casino Tropez</a> <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/miamibeachcasino.html"> <font face="verdana, arial" color="#336699" size="-2">Miami Beach Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/sterlinghousecasino.html"> <font face="verdana, arial" color="#336699" size="-2">Sterling House Casino</a>  <br> <br>
+<a href="http://www.onlineplayersassociation.co.uk/siacasino.html"> <font face="verdana, arial" color="#336699" size="-2">SIA Casino</a>  <br> <br>
+
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br>
+
+<BR></font>
+											</span> </div>
+									  	</td>
+									<td width="10" background="http://www.onlineplayersassociation.co.uk/club2xp/line_right.gif" valign="top"></td>
+								  </tr>
+								  <tr>
+									<td width="10" bgcolor="#E5E5E5"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_left_bottom.gif"></td>
+									<td background="http://www.onlineplayersassociation.co.uk/club2xp/line_bottom.gif"></td>
+									<td width="10" bgcolor="#E5E5E5"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_right_bottom.gif"></td>
+								  </tr>
+								</table>
+								  </td>
+								</tr>
+
+
+
+
+
+
+
+
+
+
+
+								</tr>
+								<tr><td></td></tr>								
+							</table>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr><tr>
+
+
+			
+				<tr><td colspan="2"  height="40" valign="top"><table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
+								  <tr>
+									<td width="10"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_left.gif" width="22" height="22"></td>
+									<td bgcolor="#0000FF"><div align="center"><img src="http://www.onlineplayersassociation.co.uk/club2xp/comingsoon1.gif" width="171" height="22"></div></td>
+									<td width="10"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_right.gif" width="22" height="22"></td>
+								  </tr>
+								  <tr>
+									<td width="10" background="http://www.onlineplayersassociation.co.uk/club2xp/line_left.gif" valign="top"></td>
+									<td bgcolor="#E5E5E5"><div align="center"><br>
+
+
+											<span class="style1"> 
+<a href=" http://banner.vegasred.com/cgi-bin/redir.cgi?id=N&member=Association&profile=vr120"onMouseOver='(window.status="http://www.vegasred.com"); return true' onmouseout='(window.status=""); return true' target=new> <img src="http://www.onlineplayersassociation.co.uk/sliced_images9/vre5m.gif" border="0"> </a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://banner.europacasino.com/cgi-bin/redir.cgi?id=N&member=Association&profile=ec120"onMouseOver='(window.status="http://www.europacasino.com"); return true' onmouseout='(window.status=""); return true' target=new><img src="http://www.onlineplayersassociation.co.uk/sliced_images9/2ece1m.gif" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://banner.titanpoker.com/cgi-bin/redir.cgi?id=N&member=Association&profile=tp125"onMouseOver='(window.status="http://www.titanpoker.com"); return true' onmouseout='(window.status=""); return true' target=new><img src="http://www.onlineplayersassociation.co.uk/sliced_images9/titan12060.gif" border="0"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://banner.casinodelrio.com/cgi-bin/redir.cgi?id=N&member=Association&profile=dl120"onMouseOver='(window.status="http://www.casinodelrio.com"); return true' onmouseout='(window.status=""); return true' target=new><img src="http://www.onlineplayersassociation.co.uk/sliced_images9/dre1m.gif" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://banner.casinotropez.com/cgi-bin/redir.cgi?id=N&member=Association&profile=ct120"onMouseOver='(window.status="http://www.casinotropez.com"); return true' onmouseout='(window.status=""); return true' target=new> <img src="http://www.onlineplayersassociation.co.uk/sliced_images9/3cte3m.gif" border="0"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+</font>
+											</span> </div>
+									  	</td>
+							<td width="10" background="http://www.onlineplayersassociation.co.uk/club2xp/line_right.gif" valign="top"></td>
+								  </tr>
+								  <tr>
+									<td width="10" bgcolor="#E5E5E5"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_left_bottom.gif"></td>
+									<td background="http://www.onlineplayersassociation.co.uk/club2xp/line_bottom.gif"></td>
+									<td width="10" bgcolor="#E5E5E5"><img src="http://www.onlineplayersassociation.co.uk/club2xp/corner_right_bottom.gif"></td>
+								  </tr>
+								</table>
+								  </td>
+								</tr>
+<tr><td colspan="3">&nbsp;</td></tr>
+
+
+
+
+
+
+			</td>
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<script language="JavaScript1.2">
+
+//IFRAME TICKER- By Dynamic Drive (http://www.dynamicdrive.com)
+
+//configure delay between changing messages (3000=3 seconds)
+var delay=7000
+
+var ie4=document.all
+
+var curindex=0
+var totalcontent=0
+
+function get_total(){
+if (ie4){
+while (eval("document.all.content"+totalcontent))
+totalcontent++
+}
+else{
+while (document.getElementById("content"+totalcontent))
+totalcontent++
+}
+}
+
+function contract_all(){
+for (y=0;y<totalcontent;y++){
+if (ie4)
+eval("document.all.content"+y).style.display="none"
+else
+document.getElementById("content"+y).style.display="none"
+}
+}
+
+function expand_one(which){
+contract_all()
+if (ie4)
+eval("document.all.content"+which).style.display=""
+else
+document.getElementById("content"+which).style.display=""
+}
+
+function rotate_content(){
+get_total()
+contract_all()
+expand_one(curindex)
+curindex=(curindex<totalcontent-1)? curindex+1: 0
+setTimeout("rotate_content()",delay)
+}
+
+window.onload=rotate_content
+
+</script>
+
+<BODY bgColor=#FFFFFF>
+
+<!--ADD YOUR TICKER CONTENT BELOW, by wrapping each one inside a <DIV> as shown below.-->
+<!--For each DIV, increment its ID attribute for each additional content (ie: "content1", "content2" etc)-->
+
+
+<div id="content0" style="display:''">
+
+<!-- ADD TICKER's CONTENT #1 HERE--------------------->
+<CENTER><font face="verdana, arial" color="#3300ff" size="-2"><strong>
+
+Approved PLUS Casinos :  <br>  
+<Marquee  scrolldelay="200">
+<a href="http://banner.ambercoastcasino.com/cgi-bin/redir.cgi?xtra11"onMouseOver='(window.status="http://www.ambercoastcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Amber Coast Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+<a href="http://www.cherrycasino.com/?from=games" onMouseOver='(window.status="http://www.cherrycasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Cherry Casino </a> &nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.casinoeuro.com/?from=games"onMouseOver='(window.status="http://www.casinoeuro.com"); return true' onmouseout='(window.status=""); return true' target=new>Casino Euro </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+ <a href="http://www.unibet.com" onMouseOver='(window.status="http://www.unibet.com"); return true' onmouseout='(window.status=""); return true' target=new>Unibet Casino </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+ <a href="http://banner.siacasino.com/cgi-bin/redir.cgi?uksexgod" onMouseOver='(window.status="http://www.sicasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Sports InterAction Casino  </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.mapau.com/cgi-bin/redir.cgi?uksexgod" onMouseOver='(window.status="http://www.mapau.com"); return true' onmouseout='(window.status=""); return true'target=new>Mapau </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.brandycasino.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.brandycasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Brandy Casino </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.zipangcasino.com/cgi-bin/redir.cgi?xtra1"onMouseOver='(window.status="http://www.zipangcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Zipang Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.casinofortune.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.casinofortune.com"); return true' onmouseout='(window.status=""); return true' target=new>Casino Fortune</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://crbanner.casinopays.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.carnivalcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Carnival Casino </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.clubdicecasino.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.clubdicecasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Club Dice Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.goldgatecasino.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.goldgatecasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Gold Gate Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.casinodelrio.com/cgi-bin/redir.cgi?id=N&member=Association&profile=dl120"onMouseOver='(window.status="http://www.casinodelrio.com"); return true' onmouseout='(window.status=""); return true' target=new>Casino Del Rio</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.usacasino.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.usacasino.com"); return true' onmouseout='(window.status=""); return true' target=new>USA Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.blackwidowcasino.com/?pf=23984"onMouseOver='(window.status="http://www.blackwidowcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Blackwidow Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.grandbankscasino.com/?pf=23984"onMouseOver='(window.status="http://www.grandbankscasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Grand Banks Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.casinotropez.com/cgi-bin/redir.cgi?id=N&member=Association&profile=ct120"onMouseOver='(window.status="http://www.casinotropez.com"); return true' onmouseout='(window.status=""); return true' target=new>Casino Tropez</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.casinomb.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.miamibeachcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Miami Beach Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://banner.maximacasino.com/cgi-bin/redir.cgi?uksexgod"onMouseOver='(window.status="http://www.maximacasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Maxima Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.sterlinghousecasino.com/?pf=23984"onMouseOver='(window.status="http://www.sterlinghousecasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Sterling House Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+ </marquee> <br>   Approved Casinos :  <br>  
+<Marquee  scrolldelay="200">
+<a href="http://www.vegasslotcasino.com/home.asp?btag=aff_103_c732_b283" onMouseOver='(window.status="http://www.vegasslotcasino.com"); return true' onmouseout='(window.status=""); return true' target=new> Vegas Slot Casino </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+<a href="http://www.888Casino.com/main.cgi?refererID=506272" onMouseOver='(window.status="http://www.888.com"); return true' onmouseout='(window.status=""); return true' target=new>Casino On Net</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.inetbet.com/affiliates/aiddownload.asp?affid=827" onMouseOver='(window.status="http://www.inetbet.com"); return true' onmouseout='(window.status=""); return true' target=new>INetBet</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.superslots.com/index.html?ID=uksexgod" onMouseOver='(window.status="http://www.superslots.com"); return true' onmouseout='(window.status=""); return true' target=new>Super Slots</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.vipcasinos.com/?CampaignID=16288 " onMouseOver='(window.status="http://www.vipcasinos.com"); return true' onmouseout='(window.status=""); return true' target=new>VIP Casinos</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.intercasino.com/index.php3?2074127|01182" onMouseOver='(window.status="http://www.intercasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Inter Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+ <a href="http://www.wssbcasino.com/?CampaignID=16291 " onMouseOver='(window.status="http://www.wssbcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>WSSB Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+<a href="http://www.casinokingdom.com/referral.asp?aff_id=aff28075" onMouseOver='(window.status="http://www.casinokingdom.com"); return true' onmouseout='(window.status=""); return true' target=new>Casino Kingdom</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href=" http://banner.vegasred.com/cgi-bin/redir.cgi?id=N&member=Association&profile=vr120"onMouseOver='(window.status="http://www.vegasred.com"); return true' onmouseout='(window.status=""); return true' target=new>Vegas Red Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.royalplazacasino.com/home.asp?btag=aff_104_c732_b492" onMouseOver='(window.status="http://www.royalplazacasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Royal Plaza Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.grandhotelcasino.com/home.asp?btag=aff_102_c732_b781"onMouseOver='(window.status="http://www.grandhotelcasino.com"); return true' onmouseout='(window.status=""); return true'  target=new>Grand Hotel Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.colosseumcasino.com/default1.asp?btag=aff_101_c732_b137"onMouseOver='(window.status="http://www.colosseumcasino.com"); return true' onmouseout='(window.status=""); return true'  target=new></a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.virtualcitycasino.com/referral.asp?aff_id=aff28075 " onMouseOver='(window.status="http://www.virtualcitycasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Virtual City Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.silverdollar.com/index.html?ID=uksexgod" onMouseOver='(window.status="http://www.silverdollarcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Silver Dollar Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.vegasjokercasino.com/home.asp?btag=aff_106_c732_b695" onMouseOver='(window.status="http://www.vegasjokercasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Vegas Joker Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.goodasgoldcasino.com/?CampaignID=16289 " onMouseOver='(window.status="http://www.goodasgoldcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Good As Gold Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+<a href="http://banner.europacasino.com/cgi-bin/redir.cgi?id=N&member=Association&profile=ec120"onMouseOver='(window.status="http://www.europacasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Europa Casino </a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.vegascountrycasino.com/home.asp?btag=aff_105_c732_b503" onMouseOver='(window.status="http://www.vegascountrycasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Vegas Country Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.captaincookscasino.com/referral.asp?aff_id=aff28075" onMouseOver='(window.status="http://www.captaincookscasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Captain Cooks Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.casinokingdom.com/referral.asp?aff_id=aff28075"onMouseOver='(window.status="http://www.flashcasinokingdom.com"); return true' onmouseout='(window.status=""); return true'  target=new>Casino Kingdom Flash</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.caribbeangold.com/index.html?ID=uksexgod" onMouseOver='(window.status="http://www.caribbeangoldcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Caribbean Gold Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.englishharbour.com/index.html?ID=uksexgod" onMouseOver='(window.status="http://www.englisharbourcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>English Harbour Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+<a href="http://www.captaincookscasino.com/referral.asp?aff_id=aff28075" onMouseOver='(window.status="http://www.captainflashcasino.com"); return true' onmouseout='(window.status=""); return true' target=new>Captain Cooks Flash Casino</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+ </marquee>
+ </strong>
+</font><br> 
+
+ <font face="verdana, arial" color="#336699" size="-2"> <strong>
+
+Poker Rooms :  </strong></font> <br>  <font face="verdana, arial" color="#336699" size="-2"> <strong>
+<Marquee  scrolldelay="150">
+<a href="http://empirepoker.richwebmaster.com?pf=23943" onMouseOver="(window.status='http://empirepoker.com'); return true" onmouseout="(window.status=''); return true" target=new>Empire Poker</a> &nbsp;  &nbsp;&nbsp;  &nbsp;
+
+ <a href="http://pokeround.richwebmaster.com?pf=23943" onMouseOver='(window.status="http://www.pokerround.com"); return true' onmouseout='(window.status=""); return true' target=new>Poker Round</a> &nbsp;  &nbsp;&nbsp;  &nbsp;
+ <a href="http://www.captaincookspoker.com/referral.asp?aff_id=aff28075"   onMouseOver='(window.status="http://www.captaincookspoker.com"); return true' onmouseout='(window.status=""); return true' target=new>Captain Cooks Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+ <a href="http://www.virtualcitypoker.com/referral.asp?aff_id=aff28075"  onMouseOver='(window.status="http://www.virtualcitypoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Virtual City Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+ <a href="http://www.pokerrewards.com/referral.asp?aff_id=aff28075"   onMouseOver='(window.status="http://www.pokerrewards.com"); return true' onmouseout='(window.status=""); return true' target=new>Poker Rewards</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+ <a href="http://www.goldentigerpoker.com/referral.asp?aff_id=aff28075"   onMouseOver='(window.status="http://www.goldentigerpoker.com"); return true' onmouseout='(window.status=""); return true' target=new>Golden Tiger Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+
+<a href="http://adservercentral.com/bannerserver/casinolink.asp?btag=BanAff12945.txt_arp_04&cid=arp"  onMouseOver='(window.status="http://www.aztecrichespoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Aztec Riches Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+
+ <a href="http://adservercentral.com/bannerserver/casinolink.asp?btag=BanAff12945.txt_pom_04&cid=pom"   onMouseOver='(window.status="http://www.pokermetro.com"); return true' onmouseout='(window.status=""); return true' target=new>Poker Metro</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+
+
+ <a href="http://www.roxyaffiliates.com/RATextLinkClick.asp?affId=1134&casinoId=4&location=1"  onMouseOver='(window.status="http://www.roxypoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Roxy Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+
+ <a href="http://www.fortune-affiliates.com/tagservlet/tagservlet?btag=ad_101348"   onMouseOver='(window.status="http://www.royalvegaspoker.com"); return true' onmouseout='(window.status=""); return true' target=new>Royal Vegas Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+ <a href="http://www.fortune-affiliates.com/tagservlet/tagservlet?btag=ad_101351"  onMouseOver='(window.status="http://www.7sultanspoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>7 Sultans Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+ <a href="http://www.referspot.com/showadtext.asp?g=0&b=868&w=859&s=b"  onMouseOver='(window.status="http://www.grandbaypoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Grand Bay Poker</a> &nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+
+
+
+
+ <a href="http://prestigepoker.richwebmaster.com?pf=23943"  onMouseOver='(window.status="http://www.prestigepoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Prestige Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+ <a href="http://playgatepoker.richwebmaster.com?pf=23943"  onMouseOver='(window.status="http://www.playgatepoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Play Gate Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+ <a href="http://diamondclubpoker.richwebmaster.com?pf=23943"  onMouseOver='(window.status="http://www.diamondclubpoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Diamond Club Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+<a href="http://banner.siacasino.com/cgi-bin/redir.cgi?id=N&member=uksexgod&profile=poker" onMouseOver='(window.status="http://www.siapoker.com"); return true' onmouseout='(window.status=""); return true'  target=new>Sports InterAction Poker</a>&nbsp;  &nbsp;&nbsp;  &nbsp;
+
+
+ </marquee></strong>
+ </a></strong></font></center>
+
+
+
+
+
+<!-- END CONTENT #1----------------->
+
+</div>

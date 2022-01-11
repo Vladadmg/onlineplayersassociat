@@ -1,0 +1,29 @@
+.body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000;}
+.body a:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 16px; color: #AC0000; text-decoration: none;}
+.body a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 16px; color: #AC0000; text-decoration: none;}
+.body a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 16px; color: #AC0000; text-decoration: underline;}
+.body a:active { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 16px; color: #AC0000; text-decoration: underline;}
+
+.header { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 16px; color: #000000; font-weight: bold}
+
+.right_menu { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000;}
+.right_menu a:link { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; text-decoration: none;}
+.right_menu a:visited { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; text-decoration: none;}
+.right_menu a:hover { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; text-decoration: underline;}
+.right_menu a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; text-decoration: underline;}
+
+.left_menu { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000;}
+.left_menu a:link { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; text-decoration: none;}
+.left_menu a:visited { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; text-decoration: none;}
+.left_menu a:hover { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; text-decoration: underline;}
+.left_menu a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; text-decoration: underline;}
+
+
+
+.left_menu_smalllink { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #0B5BFF; text-align: right;}
+.left_menu_smalllink a:link{ font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #0B5BFF; text-align: right; text-decoration: none;}
+.left_menu_smalllink a:visited { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #0B5BFF; text-align: right; text-decoration: none;}
+.left_menu_smalllink a:hover { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #0B5BFF; text-align: right; text-decoration: underline;}
+.left_menu_smalllink a:active { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #0B5BFF; text-align: right; text-decoration: underline;}
+
+.body_small { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; line-height: 13px; color: #000000;}

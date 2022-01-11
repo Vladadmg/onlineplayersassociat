@@ -1,0 +1,102 @@
+A {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #b0b0b0; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 140%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TABLE {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 120%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TR {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 120%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 120%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 120%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 120%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.red_kt {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #ff0000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.red_normal {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.top_promo {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-TOP: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; LETTER-SPACING: 2px
+}
+.top_promo2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: glow(color=#66ff00,strength=2); PADDING-TOP: 8px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; LETTER-SPACING: 1px
+}
+.dot {
+	FONT-SIZE: 8pt; COLOR: #b0b0b0; BORDER-TOP-STYLE: dotted; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-BOTTOM-STYLE: dotted
+}
+.solid {
+	FONT-SIZE: 7pt; COLOR: #b0b0b0; BORDER-TOP-STYLE: solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-BOTTOM-STYLE: solid
+}
+.table_pad {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px
+}
+.table {
+	BORDER-RIGHT: #FFFFFF 1px solid; BORDER-LEFT: #FFFFFF 1px solid
+}
+.td_border {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 8pt; PADDING-BOTTOM: 8px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 8px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.pic_border {
+	BORDER-RIGHT: #fe0300 1px solid; BORDER-TOP: #fe0300 1px solid; BORDER-LEFT: #fe0300 1px solid; BORDER-BOTTOM: #fe0300 1px solid
+}
+.kt_promotion {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; COLOR: #ffffff; PADDING-TOP: 4px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #020062; TEXT-DECORATION: none
+}
+.kt_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.kt_bold1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #949494; TEXT-DECORATION: none
+}
+.kt_bold2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #717171; TEXT-DECORATION: none
+}
+.kt_bold3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #464646; TEXT-DECORATION: none
+}
+.normal_white {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.normal_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.normal {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 8pt; COLOR: #000000; PADDING-TOP: 8px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.normal_red {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff0000; PADDING-TOP: 8px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.normal8 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.button {
+	BORDER-RIGHT: #2d2d2d 1px solid; PADDING-RIGHT: 9px; PADDING-LEFT: 8px; FONT-SIZE: 9pt; BORDER-LEFT: #a0a0a0 1px solid; COLOR: #000000; PADDING-TOP: 5px; FONT-FAMILY: verdana, arial, helvetica, sans-serif; HEIGHT: 25px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.button_red {
+	BORDER-RIGHT: #2d2d2d 1px solid; PADDING-RIGHT: 17px; PADDING-LEFT: 16px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(images1/button_red.gif); BORDER-LEFT: #a0a0a0 1px solid; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: verdana, arial, helvetica, sans-serif; HEIGHT: 25px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.button_send {
+	BORDER-RIGHT: #2d2d2d 2px solid; BORDER-TOP: #a0a0a0 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 9pt; BORDER-LEFT: #a0a0a0 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #2d2d2d 2px solid; FONT-FAMILY: verdana, arial, helvetica, sans-serif; HEIGHT: 25px; BACKGROUND-COLOR: #ea1a1d; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.copyright {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; LINE-HEIGHT: normal; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 9pt; COLOR: #333333
+}
+SELECT {
+	FONT-SIZE: 9pt; BACKGROUND-COLOR: #ffffff
+}

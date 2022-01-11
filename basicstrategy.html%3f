@@ -1,0 +1,1001 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template-banner1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head> 
+<!-- InstanceBeginEditable name="head" -->
+<title>Basic Blackjack Strategy Explained – online Blackjack</title>
+<meta name="description" content="While getting familiar with the game's rules is not a difficult task at all, when it comes to mastering basic blackjack strategy, things become a little bit more complicated.">
+<meta name="keywords" content="blackjack strategy, online blackjack, blackjack guide, internet blackjack, blackjack, black jack.">
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="verify-v1" content="+k9fRlblQezVIJk8OF4wtq17BvlAS1SSyFkUYAQ5NAc=" />
+<link rel="stylesheet" type="text/css" href="css/style-new.css" />
+<link rel="stylesheet" type="text/css" href="css/fromold.css" />
+<script type="text/javascript" language="javascript">
+	function show(id) {
+		document.getElementById(id).style.visibility = 'visible';
+	}
+	
+	function hide(id) {
+		document.getElementById(id).style.visibility = 'hidden';
+	}
+	
+	function toogleSideBar(id, h2) {	
+		if(document.getElementById(id).style.display == 'block') {
+			document.getElementById(id).style.display = 'none';
+			//document.getElementById(id).style.backgroundImage = "url('img/bg_left_menu_close.gif')";
+			h2.style.backgroundImage = "url('images/bg_left_menu_close.gif')";
+		}
+		else {
+			document.getElementById(id).style.display = 'block';
+			//document.getElementById(id).style.backgroundImage = "url('img/bg_left_menu_open.gif')";
+			h2.style.backgroundImage = "url('images/bg_left_menu_open.gif')";
+		}
+	}
+</script>
+<script language="javascript" type="text/javascript" src="js/opa.js"></script>
+</head>
+  
+<body>
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+<div id="site-container">
+	<div id="header-container">
+		<div id="header-top">
+			<ul id="header-top-menu">
+				<li><a href="http://www.onlineplayersassociation.co.uk/">Home</a></li>
+				<li><a href="http://www.onlineplayersassociation.co.uk/contactus.html">Contact Us</a></li>
+				<li class="header-top-menu-last"><a href="http://www.onlineplayersassociation.co.uk/sitemap.html">Site Map</a></li>
+			</ul>
+		</div>
+		<div id="header-bottom">
+			<div class="logo">
+				<a href="http://www.onlineplayersassociation.co.uk/"><img src="images/header-logo.jpg" border="0" /></a>
+			</div>
+			<div class="add-this-button">
+				<!-- AddThis Button BEGIN -->
+				<script type="text/javascript">var addthis_pub="tradeserve";</script>
+				<a href="http://www.addthis.com/bookmark.php?v=20" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+				<!-- AddThis Button END -->
+			</div>
+		</div>		
+	</div>
+	
+	<div id="top-menu-container">
+		<ul id="top-menu">
+			<li><a href="http://www.onlineplayersassociation.co.uk/">Home</a></li>
+			<li>				
+				<a href="http://www.onlineplayersassociation.co.uk/casino-reviews/" class="menu-label" onmouseover="show('casino-reviews');" onmouseout="hide('casino-reviews');">Casino Reviews</a>
+				<br />
+				<div id="casino-reviews" onmouseover="show('casino-reviews');" onmouseout="hide('casino-reviews');">
+					<ul>
+						<li><a href="http://www.onlineplayersassociation.co.uk/europacasino.html" title="Europa Casino">Europa Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casinotropez.html" title="Casino Tropez">Casino Tropez</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/888casino.html" title="888 Casino">888 Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/bellinicasino.html" title="Bellini Casino">Casino Bellini</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casinodelrio.html" title="Casino Del Rio">Del Rio Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/vegasredcasino.html" title="Vegas Red">Vegas Red Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/cameocasino.html" title="Cameo Casino">Cameo Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/eurogrand.html" title="Eurogrand Casino">Eurogrand Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/party-casino.html" title="Party Casino">Party Casino</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/" title="More Reviews">More Reviews</a></li>
+					</ul>
+				</div>						
+			</li>
+			<li>				
+				<a href="http://www.onlineplayersassociation.co.uk/games/" class="menu-label" onmouseover="show('casino-games');" onmouseout="hide('casino-games');">Casino Games</a>
+				<br />
+				<div id="casino-games" onmouseover="show('casino-games');" onmouseout="hide('casino-games');">
+					<ul>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack.html" title="Blackjack">Blackjack</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/baccarat.html" title="Baccarat">Baccarat</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/roulette.html" title="Roulette">Roulette</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/online-slots.html" title="Slots">Slots</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/video-poker.html" title="Video Poker">Video Poker</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/craps.html" title="Craps">Craps</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/arcade-games.html" title="Arcade Games">Arcade Games</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/backgammon.html" title="Backgammon">Backgammon</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/games/more-casino-games.html" title="More Games">More Games</a></li>
+					</ul>
+				</div>					
+			</li>
+			<li>
+				<a href="http://www.onlineplayersassociation.co.uk/articles/"  class="menu-label" onmouseover="show('casino-articles');" onmouseout="hide('casino-articles');">Casino Articles</a>
+				<br />
+				<div id="casino-articles" onmouseover="show('casino-articles');" onmouseout="hide('casino-articles');">
+					<ul>
+						<li><a href="http://www.onlineplayersassociation.co.uk/importanceofposition.html" title="Poker Position">Poker Position</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/basicstrategy.html" title="Blackjack Strategy">Blackjack Strategy</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-surrender.html" title="Blackjack Surrender">Blackjack Surrender</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/gameguide1" title="How To Play Craps">How To Play Craps</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/nodownloadpoker.html" title="No Download Poker">No Download Poker</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/articles/" title="More Articles">More Articles</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>				
+				<span class="menu-tips" onmouseover="show('casino-games-tips');" onmouseout="hide('casino-games-tips');">Casino Games Tips</span>
+				<br />
+				<div id="casino-games-tips" onmouseover="show('casino-games-tips');" onmouseout="hide('casino-games-tips');">
+					<ul>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-tips.html" title="Blackjack Tips">Blackjack Tips</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/baccarat-tips.html" title="Baccarat Tips">Baccarat Tips</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/articles/online-roulette-tips.html" title="Roulette Tips">Roulette Tips</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/slots-tips.html" title="Slots Tips">Slots Tips</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/craps-tips.html" title="Craps Tips">Craps Tips</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/arcade-games-tips.html" title="Arcade Games Tips">Arcade Games Tips</a></li>
+						<li><a href="http://www.onlineplayersassociation.co.uk/casino/games/backgammon-tips.html" title="Backgammon Tips">Backgammon Tips</a></li>
+					</ul>
+				</div>					
+			</li>
+			<li class="top-menu-last"><a href="http://www.onlineplayersassociation.co.uk/blog/">OPA Blog</a></li>
+		</ul>
+	</div>
+	
+	<div id="content-container">
+		<div id="content-left">
+			<ul class="left-menu-new">
+				<li><h2 class="left-head-first" onclick="toogleSideBar('left-sub-1', this);">Casino Games</h2></li>
+			</ul>
+			<ul id="left-sub-1" class="left-menu-new" style="display:block;">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack.html">Blackjack</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/baccarat.html">Baccarat</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/roulette.html">Roulette</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/online-slots.html">Slots</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/video-poker.html">Video Poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/craps.html">Craps</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/arcade-games.html">Arcade Games</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino/games/backgammon.html">Backgammon</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li>
+				  <h2 onclick="toogleSideBar('left-sub-2', this);">Casino Bonuses </h2>
+				</li>
+			</ul>
+			<ul id="left-sub-2" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casinonews.html" title="online casino news">online casino news</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/ecashguide.html" title="no deposit casino">no deposit casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/approvedpluscasinos.html" title="Secure online casino">Secure online casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/spotlight.html" title="Casino Spotlight">Casino Spotlight</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/online-casino-comps.html" title="online casino free bonus">online casino free bonus</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/approvedcasinos.html" title="best online casino">best online casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/highpayouts.html" title="payout casino">payout casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/videopokertables.html" title="Video Poker Tables">Video Poker Tables</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casino-downloads.html" title="casino download">casino download</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li><h2 onclick="toogleSideBar('left-sub-3', this);">Game Guides</h2></li>
+			</ul>
+			<ul id="left-sub-3" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide1.html" title="how to play craps">how to play craps</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide2.html" title="Online sic bo">Online sic bo</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide3.html" title="how to play roulette">how to play roulette</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide4.html" title="Red dog poker">Red dog poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide5.html" title="how to play baccarat">how to play baccarat</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide6.html" title="how to play blackjack">how to play blackjack</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide7.html" title="Cyber Stud poker">Cyber Stud poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide8.html" title="let it ride poker rules">let it ride poker rules</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide9.html" title="3 card poker rule">3 card poker rule</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide10.html" title="Poker Pursuit">Poker Pursuit</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameguide11.html" title="pai gow poker">pai gow poker</a></li>				
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li>
+				  <h2 onclick="toogleSideBar('left-sub-4', this);">Poker Article </h2>
+				</li>
+			</ul>
+			<ul id="left-sub-4" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/texasholdemstratergy.html" title="texas holdem poker">texas holdem poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/importanceofposition.html" title="poker strategy">poker strategy</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/texasholdempreflopstrategy.html" title="Preflop strategy">Preflop strategy</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/theartofbluffing.html" title="online poker cheating">online poker cheating</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/opponentobservation.html" title="Observation">Observation</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/knowingwhentoletgo.html" title="When to let go">When to let go</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/bettingcallingraising.html" title="Betting and raising">Betting and raising</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/playingpokertournaments.html" title="poker tournament">poker tournament</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/slowplaying.html" title="Slow playing">Slow playing</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/changingpace.html" title="Changing pace">Changing pace</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li><h2 onclick="toogleSideBar('left-sub-5', this);">Blackjack Zone</h2></li>
+			</ul>
+			<ul id="left-sub-5" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/ukblackjack.html" title="blackjack uk">blackjack uk</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/basicstrategy.html" title="blackjack strategy">blackjack strategy</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/blackjackterminology.html" title="Terminology">Terminology</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/blackjackdirectory.html" title="black jack casino directory">black jack casino directory</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/blackjackswitch.html" title="Blackjack Switch">Blackjack Switch</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/freeplayblackjack.html" title="free blackjack">free blackjack</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/blackjackhouseadvantage.html" title="House Advantage">House Advantage</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li class="left-menu-label">
+				  <h2 onclick="toogleSideBar('left-sub-6', this);">Casino Articles </h2>
+				</li>
+			</ul>
+			<ul id="left-sub-6" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casinobonuschart.html" title="casino bonuses">casino bonuses</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/newonlinecasinos.html" title="online casino gambling">online casino gambling</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/newslots.html" title="Just Released Slots">Just Released Slots</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/newcasinogames.html" title="New Casino Games">New Casino Games</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/gameprobabilities.html" title="casino odds">casino odds</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casinoofthemonth.html" title="Casino Of The Month">Casino Of The Month</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/thisweeksfreebies.html" title="This Weeks Freebies">This Weeks Freebies</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/nodownloadcasinos.html" title="no download casino">no download casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casinoreviews.html" title="online casino review">online casino review</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/poker.html" title="Online Poker">Online Poker</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li><h2 onclick="toogleSideBar('left-sub-7', this);">Game Variations</h2></li>
+			</ul>
+			<ul id="left-sub-7" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game2.html" title="Blackjack">Blackjack</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game28.html" title="video poker casino">video poker casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game82.html" title="video slot machine">video slot machine</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game104.html" title="slot machine">slot machine</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game3.html" title="casino card games">casino card games</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game57.html" title="Power Poker">Power Poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/game29.html" title="online multiplayer poker">online multiplayer poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/majormillions.html" title="progressive slot machine">progressive slot machine</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/casinosoftwarespotlight.html" title="live online poker">live online poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/microgamingopa-special-offer.html" title="Microgaming casino">Microgaming casino</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/playtechopa-special-offer.html" title="Playtech casinos">Playtech casinos</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li>
+				  <h2 onclick="toogleSideBar('left-sub-8', this);">Poker Tips </h2>
+				</li>
+			</ul>
+			<ul id="left-sub-8" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokerhands.html" title="poker hand rule">poker hand rule</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokernews.html" title="poker news">poker news</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokerterminology.html" title="online poker glossary">online poker glossary</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokerprobilities.html" title="poker odds">poker odds</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokerfreerolls.html" title="freeroll poker tournament">freeroll poker tournament</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokerchatroomlingo.html" title="Chatroom Lingo">Chatroom Lingo</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/texasholdem.html" title="Texas Hold 'em">Texas Hold 'em</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/nodownloadpoker.html" title="online poker no download">online poker no download</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/7cardstudpoker.html" title="7 card stud poker">7 card stud poker</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/badbeatbonus.html" title="Bad Beat Bonus">Bad Beat Bonus</a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="left-menu-new">
+				<li><h2 onclick="toogleSideBar('left-sub-9', this);">Bonus Menu</h2></li>
+			</ul>
+			<ul id="left-sub-9" class="left-menu-new">
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/pokerbonuses.html" title="poker bonus">poker bonus</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/bingobonuses.html" title="bingo bonus">bingo bonus</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/hirollerbonuses.html" title="Hi Roller Bonuses">Hi Roller Bonuses</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/monthlybonuses.html" title="Monthly Bonuses">Monthly Bonuses</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/repeatbonuses.html" title="Unique Bonuses">Unique Bonuses</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/microgamingcasinobonuses.html" title="Microgaming Bonus">Microgaming Bonus</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/nodepositbonuses.html" title="no deposit casino bonus">no deposit casino bonus</a></li>
+				<li>&bull; <a href="http://www.onlineplayersassociation.co.uk/newcasinobonuses.html" title="new online casino bonus">new online casino bonus</a></li>
+			</ul>
+			<div id="left-banner"><a href="http://banner.casinodelrio.com/cgi-bin/redir.cgi?id=N&member=Association&profile=600enc" target="_blank" rel="nofollow"><img alt="Click to Play Online Casino!" src="http://banner.casinodelrio.com/cgi-bin/banner.cgi?id=N&member=Association&profile=600enc"/></a><br/><a href="http://banner.casinodelrio.com/cgi-bin/redir.cgi?id=N&member=Association&profile=600enc" target="_blank" rel="nofollow">Best Online Casino</a></div>
+		</div>
+		
+		<div id="content-middle">
+			<!-- InstanceBeginEditable name="title" -->
+      <h2>Basic Blackjack Strategy Explained</h2>
+      <!-- InstanceEndEditable -->
+			<div id="small-table">
+				<h3>TOP ONLINE CASINO BONUSES</h3>
+				<div class="small-table">
+					<div class="header-container">
+						<div class="oc">Online Casino</div>
+						<div class="vc">Visit Casino</div>
+					</div>
+					<div class="casino-container">
+						<div class="num">1</div>
+						<div class="img-logo"><a href="http://banner.europacasino.com/cgi-bin/redir.cgi?%0D%0A%0D%0Aid=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-logos/europa.gif" border="0" /></a></div>
+						<div class="cas-name"><a href="http://www.onlineplayersassociation.co.uk/europacasino.html" rel="dofollow" target="_blank">Europa Casino</a></div>
+						<div class="v-button"><div class="top-online-casino-button"><a href="http://banner.europacasino.com/cgi-bin/redir.cgi?%0D%0A%0D%0Aid=N&member=Association" rel="nofollow" target="_blank" style="text-decoration:none">&nbsp;&nbsp;Visit Casino&nbsp;&nbsp;</a></div></div>
+					</div>
+					<div class="casino-container">
+						<div class="num">2</div>
+						<div class="img-logo"><a href="http://banner.casinotropez.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-logos/tropez.gif" border="0" /></a></div>
+						<div class="cas-name"><a href="http://www.onlineplayersassociation.co.uk/casinotropez.html" rel="dofollow" target="_blank">Casino Tropez</a></div>
+						<div class="v-button"><div class="top-online-casino-button"><a  href="http://banner.casinotropez.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank" style="text-decoration:none">&nbsp;&nbsp;Visit Casino&nbsp;&nbsp;</a></div></div>
+					</div>
+					<div class="casino-container">
+						<div class="num">3</div>
+						<div class="img-logo"><a href="http://banner.casinobellini.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-logos/bellini.gif"  border="0" /></a></div>
+						<div class="cas-name"><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/bellinicasino.html" rel="dofollow" target="_blank">Casino Bellini</a></div>
+						<div class="v-button"><div class="top-online-casino-button"><a href="http://banner.casinobellini.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank" style="text-decoration:none">&nbsp;&nbsp;Visit Casino&nbsp;&nbsp;</a></div></div>
+					</div>
+					<div class="casino-container">
+						<div class="num">4</div>
+						<div class="img-logo"><a href="http://banner.casinodelrio.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-logos/delrio.gif"  border="0" /></a></div>
+						<div class="cas-name"><a href="http://www.onlineplayersassociation.co.uk/casinodelrio.html" rel="dofollow" target="_blank">Del Rio Casino</a></div>
+						<div class="v-button"><div class="top-online-casino-button"><a href="http://banner.casinodelrio.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank" style="text-decoration:none">&nbsp;&nbsp;Visit Casino&nbsp;&nbsp;</a></div></div>
+					</div>
+					<div class="casino-container-last">
+						<div class="num">5</div>
+						<div class="img-logo"><a href="http://banner.cameocasino.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-logos/cameo.gif" border="0" /></a></div>
+						<div class="cas-name"><a href="http://www.onlineplayersassociation.co.uk/casino-reviews/cameocasino.html" rel="dofollow" target="_blank">Cameo Casino</a></div>
+						<div class="v-button"><div class="top-online-casino-button"><a href="http://banner.cameocasino.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank" style="text-decoration:none">&nbsp;&nbsp;Visit Casino&nbsp;&nbsp;</a></div></div>
+					</div>
+				</div>
+			</div>
+			<!-- InstanceBeginEditable name="content" -->
+      <div id="beside-casino-table">
+	  	<p>The online  Blackjack strategy of players must focus on one and only one thing; to beat the  dealer. You can beat the dealer in a number of ways. You can have your first  two cards equal 21 (Ace + picture card or a 10); you can hold on a total sum of  cards between 15 and 21 and watch the dealer exceed the number 21 on his cards;  or you can outpoint the dealer when it comes time to show your hands.</p>
+        <p>If you are involved in a brisk game of  Blackjack, you may play as many as 60 games during the course of one hour. So,  my basic online Blackjack strategy, when I log onto my favourite online casino parlour  website, is to try to win each game, of course. However, the point that I keep  in mind is that I am in the game for about 100-120 hands. Therefore, I know  that I&rsquo;ll win my share and so will the dealer. The trick in logging off a  winner is to play each game with consistent strategy and with sound  mathematical reasoning for your play. Remember, the other players have no  effect on your outcome, so don&rsquo;t allow their strategies to affect your focus  and methodology of play. </p>
+      </div>
+      <div id="below-casino-table">
+	  	<h3>Online Blackjack Strategy - Hard Hand</h3>
+        <p>The basic  strategy of Blackjack is one that you must commit to memory. It is simple and  distinct, so don&rsquo;t forget it. If your two card total is:</p>
+        <p>5, 6, 7, or 8 - Draw  another card.</p>
+        <p>9, 10, or 11 -  Double down. *</p>
+        <p>12 - Draw a card  if dealer has a 2 or 3 showing; stand against a 4, 5 or 6; Draw a card if the  dealer shows a 7 through Ace.</p>
+        <p>13, 14, 15, or 16  - Stand against a dealer&rsquo;s 2 through 6; Draw a card on 7 through Ace.</p>
+        <p>17, 18, 19, 20, or 21 - Stand on all play.</p>
+		<div id="text-banner" style="padding:30px 0px 30px 80px;"></div>
+        <h3>Online Blackjack Strategy - Soft Hand</h3>
+        <p>The online  Blackjack strategy when you have drawn an Ace should be as follows:</p>
+        <p>Ace with a </p>
+        <p>2, 3, 4 or 5 - Double  down against a dealer&rsquo;s 5 and 6. Draw a card against everything else.</p>
+        <p>6 - Double down  against a 4, 5, or 6. Draw a card against everything else.</p>
+        <p>7 - Double down  against a 3, 4, 5, or 6. Draw a card on a dealer&rsquo;s 9 and 10. Stand on all other  cards. </p>
+        <p>8 or 9 - Stand  against all cards.&nbsp; </p>
+        <p>10 - You have  Blackjack. Stand on all cards.</p>
+        <p>*Double Down - is  an online Blackjack strategy by which you can double your initial bet. For  example, if your initial bet was $20, you could double down and increase your  bet to $40. The dealer is then obliged to give you one additional card for you  to make your final hand.</p>
+        <p>There are other manoeuvres that you can make using  this basic online Blackjack strategy. This method has been mathematically  proven to be the best system to play and win at online Blackjack.</p>
+        <br />
+	  	<p>Blackjack players from all  over the world simply adore this game. It's fun, it's exciting and it gives  immense satisfaction to people who know how to play their cards right. While  getting familiar with the game's rules is not a difficult task at all, when it  comes to mastering basic <strong>blackjack strategy</strong>, things become a little bit  more complicated. The process requires players to invest many long hours in memorizing  numerous rule charts, which can sometimes diminish the overall excitement of  the game.</p>
+        <p>With such an abundance of  blackjack strategy charts being out there, we believe that, for starters, it is  best to memorize the one offered below. This strategy is the most useful in any  possible situation, without any prior knowledge regarding card distribution in  the deck. At the top of the chart you will find the basic strategy for four or  more decks when the dealer hits on soft 17 (a hand in which an Ace's value is  regarded as 11), which is the most played game in casinos.</p>
+		<br />
+		<div style="float:left; clear:none; margin:0px; padding:0px 10px 0px 0px; ">
+			<table border=1 cellPadding=3 cellSpacing=0 id="blackjack">
+			  <tr>
+				<td class="black">X</td>
+				<td class="black">X</td>
+				<td class="white">2</td>
+				<td class="white">3</td>
+				<td class="white">4</td>
+				<td class="white">5</td>
+				<td class="white">6</td>
+				<td class="white">7</td>
+				<td class="white">8</td>
+				<td class="white">9</td>
+				<td class="white">10</td>
+				<td class="white">A</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">5</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">6</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">7</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">8</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">9</td>
+				<td class="red">H</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">10</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">11</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">12</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">13</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">14</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">15</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">16</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+				<td class="red2">H</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">17</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">18</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">19</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">20</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black">X</td>
+				<td class="black2">21</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">2</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">3</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">4</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">5</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">6</td>
+				<td class="red">H</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">7</td>
+				<td class="neongreen">S</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">8</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">9</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black2">2</td>
+				<td class="black2">2</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">3</td>
+				<td class="black2">3</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">4</td>
+				<td class="black2">4</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">5</td>
+				<td class="black2">5</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="lightgreen">D</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">6</td>
+				<td class="black2">6</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">7</td>
+				<td class="black2">7</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="red">H</td>
+				<td class="red">H</td>
+				<td class="red2">H</td>
+				<td class="red">H</td>
+			  </tr>
+			  <tr>
+				<td class="black2">8</td>
+				<td class="black2">8</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+			  </tr>
+			  <tr>
+				<td class="black2">9</td>
+				<td class="black2">9</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="neongreen">S</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black2">10</td>
+				<td class="black2">10</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+				<td class="neongreen">S</td>
+			  </tr>
+			  <tr>
+				<td class="black2">A</td>
+				<td class="black2">A</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+				<td class="pink">SP</td>
+			  </tr>
+			</table>
+		</div>
+		<div style="float:left; clear:none; margin:0px; padding:0px; width:340px;">
+			<p>Here goes the key to reading  the above chart: </p>
+			
+			<p>S= Stand <br />
+			  H= Hit<br />
+			  Dh= Double (if doubling is  not allowed then hit)<br />
+			  Ds= Double (if doubling is  not allowed then stand)<br />
+			  SP= Split<br />
+			  SU= Surrender (if  surrendering is not allowed then hit)</p>
+			  
+			<p>While the above basic  blackjack strategy chart offers players the most profitable play in any given  situation based on numerous hands played in the long run, there is another  rather basic strategy designed to help players in the short run. This strategy  is called card counting. Using this particular strategy, players who keep track  of the cards that have already been used, are able to determine when the cards  still remaining in the deck give them an edge over the house.</p>
+			<p>Card counting is a widely  used strategy among today's players. It is profitable not only because it gives  players an opportunity to place larger bets when they have an advantage over  the house, but also because it allows player to use the info regarding the  remaining cards to better the basic strategy for particular hands already  played. For instance, with several tens still remaining in the deck, a player  can double down in more situations. This is because there are higher odds of  creating a strong hand. </p>
+			<p>However, despite the  profitability of the card counting blackjack strategy, card counters should be  careful not to signal that they are, in fact, card counting. Although the use  of this strategy is not considered illegal in most casinos in the United States,  casino operators are not very pleased when spotting a card counter. This can  sometimes become grounds for being escorted out of the gaming establishment!</p>
+		</div>
+		<div style="float:left; padding:20px 0px 10px 0px; width:646px;">
+			<h3>Related Articles</h3>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack.html"><u>Blackjack</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/basicstrategy.html"><u>Blackjack Strategy</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-history.html"><u>Blackjack History</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/live-blackjack.html"><u>Live Blackjack</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-rules.html"><u>Online Blackjack Rules</u></a></p>        
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-tips.html"><u>Online Blackjack Tips</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-surrender.html"><u>Blackjack Surrender</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-switch.html"><u>Blackjack Switch</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/21-duel-blackjack.html"><u>21 Duel Blackjack</u></a></p>
+			<p>&bull;&nbsp;<a href="http://www.onlineplayersassociation.co.uk/casino/games/blackjack-progressive.html"><u>Blackjack Progressive</u></a></p>
+		</div>
+      </div>
+	  <script>
+		generateTextLinkBanners();
+	  </script>
+      <!-- InstanceEndEditable -->
+			<div class="sub-content" style="text-align:right;">
+				<!-- AddThis Button BEGIN -->
+				<script type="text/javascript">var addthis_pub="tradeserve";</script>
+				<a href="http://www.addthis.com/bookmark.php?v=20" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+				<!-- AddThis Button END -->
+			</div>
+	  </div>
+		
+		<div id="content-right">
+			<ul id="best-online-casinos">
+				<li class="best-online-casinos-label">BEST ONLINE CASINOS</li>
+				<li>
+					<a href="http://banner.europacasino.com/cgi-bin/redir.cgi?%0D%0A%0D%0Aid=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-icon/europa-icon.jpg" border="0" /></a>
+					<br />
+					<a href="http://www.onlineplayersassociation.co.uk/europacasino.html">Read Review</a>
+					<br/>
+					<a href="http://banner.europacasino.com/cgi-bin/redir.cgi?%0D%0A%0D%0Aid=N&member=Association" rel="nofollow" target="_blank">Visit Casino</a>
+				</li>
+				<li>
+					<a href="http://banner.casinotropez.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-icon/tropez-icon.jpg" width="98" height="60" border="0" /></a>
+					<br />
+					<a href="http://www.onlineplayersassociation.co.uk/casinotropez.html">Read Review</a>
+					<br/>
+					<a href="http://banner.casinotropez.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank">Visit Casino</a>
+			  </li>
+			  <li>
+					<a href="http://banner.eurogrand.com/cgi-bin/redir.cgi?id=N&member=abtsyz&profile=opa" rel="nofollow" target="_blank"><img src="images/casino-icon/eurogrand.jpg" width="98" height="60" border="0"/></a>
+					<br />
+					<a href="http://www.onlineplayersassociation.co.uk/casino-reviews/eurogrand.html">Read Review</a>
+					<br/>
+					<a href="http://banner.eurogrand.com/cgi-bin/redir.cgi?id=N&member=abtsyz&profile=opa" rel="nofollow" target="_blank">Visit Casino</a>
+			  </li>
+				<li>
+					<a href="http://banner.vegasred.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-icon/left-vegasred-img.gif" width="92" height="56" border="0" /></a>
+					<br />
+					<a href="http://www.onlineplayersassociation.co.uk/vegasredcasino.html">Read Review</a>
+					<br/>
+					<a href="http://banner.vegasred.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank">Visit Casino</a>
+			  </li>
+				<li>
+					<a href="http://banner.casinobellini.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank"><img src="images/casino-icon/left-casinobellini-img.gif" width="92" height="56" border="0" /></a>
+					<br />
+					<a href="http://www.onlineplayersassociation.co.uk/casino-reviews/bellinicasino.html">Read Review</a>
+					<br/>
+					<a href="http://banner.casinobellini.com/cgi-bin/redir.cgi?id=N&member=Association" rel="nofollow" target="_blank">Visit Casino</a>
+			  </li>
+			</ul>
+		</div>
+		<div id="right-banner"><a href="http://banner.vegasred.com/cgi-bin/redir.cgi?id=N&member=Association&profile=vrf2eu" target="_blank" rel="nofollow"><img alt="Click here to play!" src="http://banner.vegasred.com/cgi-bin/banner.cgi?id=N&member=Association&profile=vrf2eu"/></a><br/><a href="http://banner.vegasred.com/cgi-bin/redir.cgi?id=N&member=Association&profile=vrf2eu" target="_blank" rel="nofollow">Best Online Casino</a></div>
+	</div>
+	
+	<div id="footer">
+		<a rel="nofollow" target="_blank" href="http://www.gamblersanonymous.org/">Gamblers Anonymous</a> | <a rel="nofollow" target="_blank" href="http://www.gamcare.org.uk/">Gamcare</a> | <a rel="nofollow" target="_blank" href="http://www.onlineplayersassociation.co.uk/press-releases.html">Press Releases</a>
+		<br />
+		<br />
+		&copy; 2002-2007 Online Players Association. All rights reserved
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2262321-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script src="http://s.clicktale.net/WRb.js" type="text/javascript"></script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(27944,1);
+</script>
+<!-- ClickTale end of Bottom part -->
+<!-- tracking code -->
+<script type='text/javascript'>
+<!--//<![CDATA[
+function listen(evnt, elem, func) {
+if (elem.addEventListener) { elem.addEventListener(evnt,func,false); }
+else {
+var r = elem.attachEvent("on"+evnt, func);
+return r;
+}
+}
+var hhref='',trackURL='';
+links = document.getElementsByTagName('A');
+for (i=0;i<links.length;i++) {
+link = links[i];
+hhref = link.href;
+if (hhref.indexOf('onlineplayersassociation.co.uk')!=-1) continue;
+listen('click',link,function(e) {
+Source = e.srcElement?e.srcElement:e.target;
+tt = Source.href.indexOf('creferer');
+trackURL = 'gotobrand/'+Source.href.replace('http://','').substring(0,tt);
+pageTracker._trackPageview(trackURL);
+});
+}
+//]]>-->
+</script>
+<script type="text/javascript" src="js/parseuri.js"></script>
+
+<!-- tracking code -->
+</body>
+<!-- InstanceEnd --></html>

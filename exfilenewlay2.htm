@@ -1,0 +1,148 @@
+<script language="JavaScript1.2">
+
+//IFRAME TICKER- By Dynamic Drive (http://www.dynamicdrive.com)
+
+//configure delay between changing messages (3000=3 seconds)
+var delay=10000
+
+var ie4=document.all
+
+var curindex=0
+var totalcontent=0
+
+function get_total(){
+if (ie4){
+while (eval("document.all.content"+totalcontent))
+totalcontent++
+}
+else{
+while (document.getElementById("content"+totalcontent))
+totalcontent++
+}
+}
+
+function contract_all(){
+for (y=0;y<totalcontent;y++){
+if (ie4)
+eval("document.all.content"+y).style.display="none"
+else
+document.getElementById("content"+y).style.display="none"
+}
+}
+
+function expand_one(which){
+contract_all()
+if (ie4)
+eval("document.all.content"+which).style.display=""
+else
+document.getElementById("content"+which).style.display=""
+}
+
+function rotate_content(){
+get_total()
+contract_all()
+expand_one(curindex)
+curindex=(curindex<totalcontent-1)? curindex+1: 0
+setTimeout("rotate_content()",delay)
+}
+
+window.onload=rotate_content
+
+</script>
+
+<BODY bgColor=#FFFFFF>
+
+<!--ADD YOUR TICKER CONTENT BELOW, by wrapping each one inside a <DIV> as shown below.-->
+<!--For each DIV, increment its ID attribute for each additional content (ie: "content1", "content2" etc)-->
+
+
+<div id="content0" style="display:''">
+
+<!-- ADD TICKER's CONTENT #1 HERE--------------------->
+<CENTER>
+
+<a href="http://www.goldenreefcasino.com/default.asp?btag=BanAff24869" target="_blank"><img src="http://adservercentral.com/creatives/banserv.aspx?btag=BanAff12945.grc_but125x125_USD01" height="125" width="125" border="0" alt=""></a>
+</center>
+
+
+<!-- END CONTENT #1----------------->
+
+</div>
+
+<div id="content1" style="display:none">
+
+<!-- ADD TICKER's CONTENT #2 HERE--------------------->
+<CENTER>
+<a href="http://www.ukcasinoclub.com/default.asp?btag=BanAff24863" target="_blank"><img src="http://adservercentral.com/creatives/banserv.aspx?btag=BanAff12945.ukc_but125x125_USD01" height="125" width="125" border="0" alt=""></a></center>
+
+
+
+<!-- END CONTENT #2----------------->
+</div>
+
+<div id="content2" style="display:none">
+
+<!-- ADD TICKER's CONTENT #3 HERE--------------------->
+
+<CENTER>
+<a href="http://www.musichallcasino.com/default.asp?btag=BanAff24861" target="_blank"><img src="http://adservercentral.com/creatives/banserv.aspx?btag=BanAff12945.mhc_but125x125_USD01" height="125" width="125" border="0" alt=""></a></center>
+
+
+<!-- END CONTENT #3----------------->
+
+</div>
+
+<div id="content3" style="display:none">
+
+<!-- ADD TICKER's CONTENT #4 HERE--------------------->
+
+<CENTER>
+
+<a href="http://www.challengecasino.com/default.asp?btag=BanAff24865" target="_blank"><img src="http://adservercentral.com/creatives/banserv.aspx?btag=BanAff12945.chc_but125x125_USD01" height="125" width="125" border="0" alt=""></a></center>
+
+
+<!-- END CONTENT #4----------------->
+
+</div>
+
+<div id="content4" style="display:''">
+
+<!-- ADD TICKER's CONTENT #1 HERE--------------------->
+<CENTER>
+
+<a href="http://www.aztecrichescasino.com/default.asp?btag=BanAff24859" target="_blank"><img src="http://adservercentral.com/creatives/banserv.aspx?btag=BanAff12945.arc_but125x125_USD10" height="125" width="125" border="0" alt=""></a></center>
+
+
+<!-- END CONTENT #1----------------->
+
+</div>
+
+<div id="content5" style="display:none">
+
+<!-- ADD TICKER's CONTENT #2 HERE--------------------->
+<CENTER>
+
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efea8bfe282165154d6e/42740" target=new><img src="http://www.onlineplayersassociation.co.uk/newimages/nostalgia125.gif" border="0">
+
+ </a></center>
+
+
+
+<!-- END CONTENT #2----------------->
+</div>
+
+<div id="content6" style="display:none">
+
+<!-- ADD TICKER's CONTENT #3 HERE--------------------->
+
+<CENTER>
+
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efeacb4d49c741e71553/6669" target=new><img src="http://www.onlineplayersassociation.co.uk/newimages/phoe125.gif" border="0">
+
+ </a></center>
+
+
+<!-- END CONTENT #3----------------->
+
+</div>
+

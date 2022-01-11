@@ -1,0 +1,137 @@
+<script language="JavaScript1.2">
+
+//IFRAME TICKER- By Dynamic Drive (http://www.dynamicdrive.com)
+
+//configure delay between changing messages (3000=3 seconds)
+var delay=7000
+
+var ie4=document.all
+
+var curindex=0
+var totalcontent=0
+
+function get_total(){
+if (ie4){
+while (eval("document.all.content"+totalcontent))
+totalcontent++
+}
+else{
+while (document.getElementById("content"+totalcontent))
+totalcontent++
+}
+}
+
+function contract_all(){
+for (y=0;y<totalcontent;y++){
+if (ie4)
+eval("document.all.content"+y).style.display="none"
+else
+document.getElementById("content"+y).style.display="none"
+}
+}
+
+function expand_one(which){
+contract_all()
+if (ie4)
+eval("document.all.content"+which).style.display=""
+else
+document.getElementById("content"+which).style.display=""
+}
+
+function rotate_content(){
+get_total()
+contract_all()
+expand_one(curindex)
+curindex=(curindex<totalcontent-1)? curindex+1: 0
+setTimeout("rotate_content()",delay)
+}
+
+window.onload=rotate_content
+
+</script>
+
+<BODY bgColor=#FFFFFF>
+
+<!--ADD YOUR TICKER CONTENT BELOW, by wrapping each one inside a <DIV> as shown below.-->
+<!--For each DIV, increment its ID attribute for each additional content (ie: "content1", "content2" etc)-->
+
+
+<div id="content0" style="display:''">
+
+<!-- ADD TICKER's CONTENT #1 HERE--------------------->
+<CENTER><font face="verdana, arial" color="#3300ff" size="-2"><strong>
+
+<br><br>
+
+<a href="http://www.aztecrichescasino.com/default.asp?btag=BanAff24859" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/aztecriches.gif"width=86 height=48 border="0"><br>Aztec Riches<br>Upto $850 Free</a> <br><br><br><br>
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efea8bfe282165154d6e/42740" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/nostalgia.gif"width=90 height=50 border="0"><br>Nostalgia  Casino<br>Upto $100 Free</a> <br><br><br><br>
+<a href="http://www.ukcasinoclub.com/default.asp?btag=BanAff248636" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/ukcasinoclub.gif"width=94 height=60 border="0"><br>UK Casino Club<br>$125 Free - 100% Bonus</a> <br><br><br><br>
+
+<a href="http://www.goldenreefcasino.com/default.asp?btag=BanAff24869" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/goldenreef.gif"width=143 height=31 border="0"><br>Golden Reef Casino<br>$100 Free - 100% Bonus</a><br><br><br><br>
+ </a></strong></font></center>
+
+
+
+
+
+<!-- END CONTENT #1----------------->
+
+</div>
+
+<div id="content1" style="display:none">
+
+<!-- ADD TICKER's CONTENT #2 HERE--------------------->
+<CENTER><font face="verdana, arial" color="#3300ff" size="-2"><strong>
+
+<br><br>
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efea8bfe282165154d6e/42740" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/nostalgia.gif"width=90 height=50 border="0"><br>Nostalgia  Casino<br>Upto $100 Free</a> <br><br><br><br>
+<a href="http://www.challengecasino.com/default.asp?btag=BanAff24865" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/challengecasino.gif"width=120 height=36 border="0"><br>Challenge Casino<br>Upto $1000 Free</a> <br><br><br><br><br>
+<a href="http://www.musichallcasino.com/default.asp?btag=BanAff24861" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/musichall.gif"width=125 height=45 border="0"><br>Music Hall Casino<br>Upto $500 Free</a> <br><br><br><br>
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efeacb4d49c741e71553/6669" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/phoenician.gif"width=141 height=44 border="0"><br>Phoenician Casino<br>Upto $1200 Free</a> <br><br><br><br>
+
+
+
+ </a></strong></font></center>
+
+<!-- END CONTENT #2----------------->
+
+</div>
+
+<div id="content2" style="display:none">
+
+<!-- ADD TICKER's CONTENT #3 HERE--------------------->
+<CENTER><font face="verdana, arial" color="#3300ff" size="-2"><strong>
+
+<br><br>
+
+<a href="http://www.aztecrichescasino.com/default.asp?btag=BanAff24859" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/aztecriches.gif"width=86 height=48 border="0"><br>Aztec Riches<br>Upto $850 Free</a> <br><br><br><br>
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efea8bfe282165154d6e/42740" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/nostalgia.gif"width=90 height=50 border="0"><br>Nostalgia  Casino<br>Upto $100 Free</a> <br><br><br><br>
+<a href="http://www.ukcasinoclub.com/default.asp?btag=BanAff248636" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/ukcasinoclub.gif"width=94 height=60 border="0"><br>UK Casino Club<br>$125 Free - 100% Bonus</a> <br><br><br><br>
+
+<a href="http://www.goldenreefcasino.com/default.asp?btag=BanAff24869" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/goldenreef.gif"width=143 height=31 border="0"><br>Golden Reef Casino<br>$100 Free - 100% Bonus</a><br><br><br><br>
+ </a></strong></font></center>
+<!-- END CONTENT #3----------------->
+
+</div>
+
+<div id="content3" style="display:none">
+
+<!-- ADD TICKER's CONTENT #4 HERE--------------------->
+<CENTER><font face="verdana, arial" color="#3300ff" size="-2"><strong>
+
+<br><br>
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efea8bfe282165154d6e/42740" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/nostalgia.gif"width=90 height=50 border="0"><br>Nostalgia  Casino<br>Upto $100 Free</a> <br><br><br><br>
+<a href="http://www.challengecasino.com/default.asp?btag=BanAff24865" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/challengecasino.gif"width=120 height=36 border="0"><br>Challenge Casino<br>Upto $1000 Free</a> <br><br><br><br><br>
+<a href="http://www.musichallcasino.com/default.asp?btag=BanAff24861" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/musichall.gif"width=125 height=45 border="0"><br>Music Hall Casino<br>Upto $500 Free</a> <br><br><br><br>
+<a href="http://www.adriches-tpr.com/_b5975d5a5c73efeacb4d49c741e71553/6669" target=new><IMG SRC="http://www.onlineplayersassociation.co.uk/sliced_images9/phoenician.gif"width=141 height=44 border="0"><br>Phoenician Casino<br>Upto $1200 Free</a> <br><br><br><br>
+
+
+
+ </a></strong></font></center>
+
+
+
+<!-- END CONTENT #4----------------->
+
+</div>
+
